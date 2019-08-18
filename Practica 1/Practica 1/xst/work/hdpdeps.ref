@@ -1,0 +1,6 @@
+V3 3
+FL C:/hlocal/Practica1/sumador.vhd 2015/10/12.12:56:20 P.15xf
+EN work/sumador 1444734730 FL C:/hlocal/Practica1/sumador.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/sumador/rtl 1444734731 \
+      FL C:/hlocal/Practica1/sumador.vhd EN work/sumador 1444734730
