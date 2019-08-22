@@ -1,0 +1,20 @@
+Running: C:\software\electronica\xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/hlocal/Practica2/cntr_mod4_isim_beh.exe -prj C:/hlocal/Practica2/cntr_mod4_beh.prj work.cntr_mod4 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/hlocal/Practica2/contmod4_oscar.vhd" into library work
+Parsing VHDL file "C:/hlocal/Practica2/tb_cntr_mod4.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling architecture rtl of entity cntr [\cntr(4,2)\]
+Compiling architecture behavior of entity cntr_mod4
+Time Resolution for simulation is 1ps.
+Compiled 7 VHDL Units
+Built simulation executable C:/hlocal/Practica2/cntr_mod4_isim_beh.exe
+Fuse Memory Usage: 36464 KB
+Fuse CPU Usage: 311 ms

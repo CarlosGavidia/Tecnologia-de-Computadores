@@ -1,0 +1,64 @@
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cntr_map.ncd cntr.ngd cntr.pcf 
+par -w -intstyle ise -ol high -t 1 cntr_map.ncd cntr.ncd cntr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cntr.twx cntr.ncd -o cntr.twr cntr.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f cntr.ut cntr.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cntr_map.ncd cntr.ngd cntr.pcf 
+par -w -intstyle ise -ol high -t 1 cntr_map.ncd cntr.ncd cntr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cntr.twx cntr.ncd -o cntr.twr cntr.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f cntr.ut cntr.ncd 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cntr_map.ncd cntr.ngd cntr.pcf 
+par -w -intstyle ise -ol high -t 1 cntr_map.ncd cntr.ncd cntr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cntr.twx cntr.ncd -o cntr.twr cntr.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f cntr.ut cntr.ncd 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cntr_map.ncd cntr.ngd cntr.pcf 
+par -w -intstyle ise -ol high -t 1 cntr_map.ncd cntr.ncd cntr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cntr.twx cntr.ncd -o cntr.twr cntr.pcf -ucf pines_P1.ucf 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cntr_map.ncd cntr.ngd cntr.pcf 
+par -w -intstyle ise -ol high -t 1 cntr_map.ncd cntr.ncd cntr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cntr.twx cntr.ncd -o cntr.twr cntr.pcf -ucf pines_P1.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cntr_map.ncd cntr.ngd cntr.pcf 
+par -w -intstyle ise -ol high -t 1 cntr_map.ncd cntr.ncd cntr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cntr.twx cntr.ncd -o cntr.twr cntr.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f cntr.ut cntr.ncd 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cntr_map.ncd cntr.ngd cntr.pcf 
+par -w -intstyle ise -ol high -t 1 cntr_map.ncd cntr.ncd cntr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cntr.twx cntr.ncd -o cntr.twr cntr.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f cntr.ut cntr.ncd 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cntr_map.ncd cntr.ngd cntr.pcf 
+par -w -intstyle ise -ol high -t 1 cntr_map.ncd cntr.ncd cntr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cntr.twx cntr.ncd -o cntr.twr cntr.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f cntr.ut cntr.ncd 
+xst -intstyle ise -ifn "C:/hlocal/Practica2/cntr.xst" -ofn "C:/hlocal/Practica2/cntr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 cntr.ngc cntr.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cntr_map.ncd cntr.ngd cntr.pcf 
+par -w -intstyle ise -ol high -t 1 cntr_map.ncd cntr.ncd cntr.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cntr.twx cntr.ncd -o cntr.twr cntr.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f cntr.ut cntr.ncd 

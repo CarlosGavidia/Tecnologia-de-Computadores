@@ -1,0 +1,2 @@
+vhdl work "contmod4_oscar.vhd"
+vhdl work "tb_cntr_mod4.vhd"

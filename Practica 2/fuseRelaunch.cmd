@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/hlocal/Practica2/cntr_mod4_isim_beh.exe" -prj "C:/hlocal/Practica2/cntr_mod4_beh.prj" "work.cntr_mod4" 

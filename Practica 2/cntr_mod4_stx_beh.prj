@@ -1,0 +1,2 @@
+vhdl isim_temp "contmod4_oscar.vhd"
+vhdl isim_temp "tb_cntr_mod4.vhd"
