@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/GAVO/Desktop/UCM/2 curso Ingenieria Informatica/tecnologia de computadores/practicas/practica2/Practica2_avanzada_porFases/tb_muyecaFases_isim_beh.exe -prj C:/Users/GAVO/Desktop/UCM/2 curso Ingenieria Informatica/tecnologia de computadores/practicas/practica2/Practica2_avanzada_porFases/tb_muyecaFases_beh.prj work.tb_muyecaFases 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/GAVO/Desktop/UCM/2 curso Ingenieria Informatica/tecnologia de computadores/practicas/practica2/Practica2_avanzada_porFases/tb_muyecaFases.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/GAVO/Desktop/UCM/2 curso Ingenieria Informatica/tecnologia de computadores/practicas/practica2/Practica2_avanzada_porFases/tb_muyecaFases.vhd" Line 133: <muyecafases> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/GAVO/Desktop/UCM/2 curso Ingenieria Informatica/tecnologia de computadores/practicas/practica2/Practica2_avanzada_porFases/tb_muyecaFases.vhd" Line 133. Instance muyecafases is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling architecture behavior of entity tb_muyecafases
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/GAVO/Desktop/UCM/2 curso Ingenieria Informatica/tecnologia de computadores/practicas/practica2/Practica2_avanzada_porFases/tb_muyecaFases_isim_beh.exe
+Fuse Memory Usage: 34112 KB
+Fuse CPU Usage: 1793 ms
